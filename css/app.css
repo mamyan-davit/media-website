@@ -1,0 +1,83 @@
+body{
+	background-color: #f4f4f4;
+}
+
+.header{
+	border-bottom: 3px #ccc solid;
+}
+
+.social{
+	float: right;
+	padding-top: 20px;
+}
+
+.social img{
+	width: 40px;
+}
+
+.showcase{
+	padding: 40px 0;
+	height: 400px;
+	margin-bottom: 20px;
+	background: #f4f4f4 url('../img/showcase.jpg') no-repeat top center;
+	background-size: cover;
+	border-bottom: 3px solid #ccc;
+}
+
+.showcase h1{
+	font-size: 50px;
+}
+
+.showcase p{
+	font-size: 22px;
+	width: 80%;
+}
+
+.boxes{
+	text-align: center;
+}
+
+.boxes i{
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+footer{
+	background: #333;
+	color: #fff;
+	margin-top: 55px;
+	text-align: center;
+	height: 80px;
+	padding-top: 30px;
+}
+
+#sendBtn{
+	margin-left: 14px;
+}
+
+#aboutMain, #aboutAside, #contactMain{
+	margin-top: 20px;
+}
+
+#aboutAside h4{
+	background-color: #42a4db;
+	color: #fff;
+	padding: 8px;
+}
+
+#aboutAside a:hover{
+	background-color: #f4f4f4;
+}
+
+#serviceMain a{
+	font-size: 16px;
+	color: #fff;
+	background-color: #42a4db;
+}
+
+#serviceMain a:hover, #serviceMain a:focus{
+	background-color: #333;
+	color: #fff;
+}
